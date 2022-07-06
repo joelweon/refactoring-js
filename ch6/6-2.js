@@ -5,8 +5,8 @@ export function rating(driver) {
 
 // 예제 2
 function reportLines(customer) {
-  const lines = [];
-  lines.push(['name', customer.name]);
-  lines.push(['location', customer.location]);
-  return lines;
+  const result = [];
+  result.push(['name', customer.name]);
+  result.push(['location', customer.location]);
+  return result;
 }
